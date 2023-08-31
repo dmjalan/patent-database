@@ -191,7 +191,7 @@ def showgraphs():
     # y = [d['ApplicationType'] for d in data]
 
 
-    st.title("LexDossier Patent Database (Alpha)")
+    st.title("Patent Database (Alpha)")
 
     # CONVERT DATA IN JSON FORMAT TO PANDAS DATAFRAME
     df= pd.DataFrame(data)
